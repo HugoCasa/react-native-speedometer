@@ -126,7 +126,7 @@ class Speedometer extends Component {
           <Text style={
             [style.label, labelStyle]}
           >
-            {limitValue(value, minValue, maxValue, allowedDecimals)}
+            {limitValue(value, minValue, maxValue, allowedDecimals)} m^3/s
           </Text>
           <Text style={
             [style.labelNote, { color: label.labelColor }, labelNoteStyle]}
